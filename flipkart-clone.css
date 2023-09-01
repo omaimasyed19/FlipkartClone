@@ -90,7 +90,7 @@ body {
    background-size :cover ;
    background-repeat :no-repeat ;      width:88px; 
      border: 2px solid transparent ;
-     background-image :url("fk.jpg");    
+     background-image :url("./picturesfk.jpg");    
      background-size :cover;  
      
 }
@@ -152,7 +152,9 @@ body {
 height: 450px;
 margin-top :16px;
 width:100vw;   
-background-image:url("jb.png");          
+background-image:url("./pictures/jb.png"); 
+background-size :cover ;
+background-repeat :no-repeat ;          
 }
 
 
@@ -161,7 +163,7 @@ background-image:url("jb.png");
  background-repeat :no-repeat ; 
      height :450px;
 width:100vw;
-background-image:url("ja.png");
+background-image:url("./picturesja.png");
 animation: tv 14s linear infinite;
 }
 
@@ -173,67 +175,67 @@ animation: tv 14s linear infinite;
 @keyframes tv{
      
      0%{
-          background-image:url("A.png");
+          background-image:url("./picturesA.png");
           
      }
      
      10%{
-          background-image:url("B.png");
+          background-image:url("./picturesB.png");
           
      }
      
      
      20%{
-          background-image:url("C.png");
+          background-image:url("./pictures/C.png");
           
      }
      
      
      30%{
-       background-image:url("D.png");   
+       background-image:url("./pictures/D.png");   
           
      }
      
      40%{
           
-       background-image:url("E.png");   
+       background-image:url("./pictures/E.png");   
      }
      
      50%{
           
-       background-image:url("F.png");   
+       background-image:url("./pictures/F.png");   
      }
      
      60%{
-       background-image:url("G.png");   
+       background-image:url("./pictures/G.png");   
          
      }
      
      70%{
-         background-image:url("H.png"); 
+         background-image:url("./pictures/H.png"); 
           
      }
      
      80%{
-         background-image:url("I.png"); 
+         background-image:url("./pictures/I.png"); 
           
      }
      
      90%{
-       background-image:url("J.Png");   
+       background-image:url("./pictures/J.Png");   
           
      }
      95%{
-       background-image:url("l.Png");   
+       background-image:url("./pictures/l.Png");   
           
      }
      55%{
-       background-image:url("Jc.Png");   
+       background-image:url("./pictures/Jc.Png");   
           
      }
      
      100%{
-          background-image:url("K.jpg");
+          background-image:url("./pictures/K.jpg");
           
      }
      
@@ -261,7 +263,7 @@ border:2px solid white ;
 
 #box4{
 background-size:cover;    
-background-image :url("ar.jpg");
+background-image :url("./pictures/ar.jpg");
 margin-left :2px ;
 box-shadow :00 0 2px black;
 }
